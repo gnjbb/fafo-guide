@@ -1,0 +1,41 @@
+{
+  "name": "fafo-guide",
+  "version": "1.0.0",
+  "description": "Find your perfect hackathon project in 20 minutes - AI-powered ideation workflow",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fafo-guide": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js install --dry-run --quiet --yes"
+  },
+  "keywords": [
+    "hackathon",
+    "ideation",
+    "ai",
+    "claude",
+    "workflow",
+    "project-discovery",
+    "fafo"
+  ],
+  "author": "Telemetry",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnjbb/fafo-guide.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.2.12"
+  }
+}
